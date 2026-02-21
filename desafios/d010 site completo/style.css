@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url(bebas_neue/BebasNeue-Regular.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+        body{
+            background-color: #84E1AD;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        /*------ CABEÇALHO DO SITE ------*/
+        header {
+            background-image: linear-gradient(to bottom, #39CB79, #1D643C);
+            background-color: white;
+            padding: 10px;
+            margin: 0px;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.423);
+        }
+
+        header > h1 {
+            font-family: 'MinhaFonte';
+            color: white;
+            text-align: center;
+            text-shadow: 1px 1px 1px black;
+         
+        }
+
+        header > p {
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
+            color: #aadfc1;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.366);
+        }
+
+        nav {
+            text-align: left;
+            padding: 10px;
+            box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+            margin: -7px;
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            transition-duration: 0.5s;
+        } 
+
+
+        nav > a:hover {
+            background-color: #39CB79;
+            color: #1D643C;
+        }
+        
+
+        /*------ FIM DO CABEÇALHO ------*/
+
+        /*------ CORPO DO TEXTO ------*/
+
+@font-face {
+    font-family: 'Android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    main {
+        background-color: white;
+        max-width: 1000px;
+        min-width: 300px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+
+    section {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    section > h1 {
+        font-family: "Android";
+        color: #20603D;
+    }
+
+    section > p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    section > h2 {
+        font-family: "Android";
+        color: #20603D;
+        background-image:linear-gradient(to right, #C7ECD7, #fbfbfb) ;
+    }
+
+    p > a {
+        text-decoration: none;
+        color:#216440;
+        font-weight: bold;
+    }
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-center {
+       /* display: flex;
+        justify-content: center;
+        align-items: center;*/
+        max-width: 350px;
+        display: block;
+        margin: auto;
+
+    }
+    
+    article {
+        background-color: #216440;
+        margin: -20px;
+    }
+
+    article > iframe {
+        width: 60%;
+        max-width: 800px;
+        height: 420px;
+        display: block;
+        margin: auto;
+    }
+
+    .video {
+        margin: 30px 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .video iframe {
+        width: 95%;
+        max-width: 750px;
+        height: 450px;
+    }
+
+    aside {
+        background-color: #aadfc1;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    }
+
+    aside > h3 {
+        background-color: #20603D;
+        color: white;
+        padding: 10px;
+        margin: -10px -10px 0px -10px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    aside > ul{
+        list-style-type: '\2714\00A0\00A0';
+        list-style-position: inside;
+        columns: 2;
+    }
+
+    .par {
+            color: black;
+        }
+    
+
+
+    /*------ RODAPÉ ------*/
+    footer {
+            text-align: center;
+            
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+            font-style: italic;
+            color: #39CB79;
+        }
+
+        .borda {
+            color: white;
+            
+        }
